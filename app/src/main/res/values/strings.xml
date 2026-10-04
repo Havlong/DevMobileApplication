@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SignGate</string>
+    <string name="role_admin">Administrator</string>
+    <string name="role_user">Signer</string>
+    <string name="external_segment">External Segment</string>
+    <string name="internal_segment">Internal Segment</string>
+    <string-array name="list_nodes">
+        <item>Node-01</item>
+        <item>Node-02</item>
+        <item>Node-03</item>
+    </string-array>
+    <string-array name="list_crypto_providers">
+        <item>GOST R 34.10–2012 256-bit: ViPNet CSP</item>
+        <item>GOST R 34.10–2012 512-bit: ViPNet CSP</item>
+        <item>GOST R 34.10–2012 512-bit: ViPNet HSM</item>
+        <item>ECDSA: Microsoft Platform Crypto Provider</item>
+    </string-array>
+    <string name="notice_not_implemented">Not Implemented Yet</string>
+    <string name="hint_more_servers">More Nodes</string>
+    <string name="status_crypto">Cryptography Providers Status</string>
+    <string name="crypto_error">Cryptography Provider Error</string>
+    <string name="export_journals">Export Security Journals</string>
+    <string name="admin_dashboard_title">SignGate Cluster Dashboard</string>
+    <string name="user_dashboard_title">SignGate Status Dashboard</string>
+    <string name="tab_animation">Tab Animation</string>
+    <string name="gateway_status_color_animation">Gateway Status Color Animation</string>
+    <string name="node_selector_title">Configured DVCS Cluster Nodes</string>
+    <string name="ca_services_availability">CA Services Availability</string>
+    <string name="gateway_unavailable">SignGate Services are unavailable</string>
+    <string name="gateway_ready">Document Validation is available</string>
+    <string name="gateway_connection_timeout">Gateway connection timed out</string>
+    <plurals name="estimated_time">
+        <item quantity="one">Estimated Validation Time: ~%d second</item>
+        <item quantity="other">Estimated Validation Time: ~%d seconds</item>
+    </plurals>
+</resources>

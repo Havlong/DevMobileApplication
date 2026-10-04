@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SignGate</string>
+    <string name="role_admin">Администратор</string>
+    <string name="role_user">Подписант</string>
+    <string name="notice_not_implemented">Функционал не реализован</string>
+    <string name="hint_more_servers">Больше узлов</string>
+    <string name="status_crypto">Статус криптографических средств</string>
+    <string name="crypto_error">Ошибка использования СКЗИ</string>
+    <string name="export_journals">Экспорт журналов безопасности</string>
+    <string name="external_segment">Внешний Контур</string>
+    <string name="internal_segment">Внутренний Контур</string>
+    <string-array name="list_nodes">
+        <item>Узел-01</item>
+        <item>Узел-02</item>
+        <item>Узел-03</item>
+    </string-array>
+    <string-array name="list_crypto_providers">
+        <item>ГОСТ Р 34.10–2012 256-бит: ViPNet CSP</item>
+        <item>ГОСТ Р 34.10–2012 512-бит: ViPNet CSP</item>
+        <item>ГОСТ Р 34.10–2012 512-бит: ViPNet HSM</item>
+        <item>ECDSA: Microsoft Platform Crypto Provider</item>
+    </string-array>
+    <string name="admin_dashboard_title">Мониторинг кластера SignGate</string>
+    <string name="user_dashboard_title">Состояние Шлюзов ЭДО SignGate</string>
+    <string name="tab_animation">Анимация вкладки</string>
+    <string name="gateway_status_color_animation">Анимация цвета статуса шлюза</string>
+    <string name="node_selector_title">Узлы кластера DVCS Шлюза ЭДО</string>
+    <string name="ca_services_availability">Доступность Сервисов УЦ</string>
+    <string name="gateway_unavailable">Шлюз ЭДО недоступен для проверки</string>
+    <string name="gateway_ready">Шлюз ЭДО готов к проверке документов</string>
+    <string name="gateway_connection_timeout">Превышено время соединения со шлюзом</string>
+    <plurals name="estimated_time">
+        <item quantity="one">Среднее время проверки: ~%d секунда</item>
+        <item quantity="few">Среднее время проверки: ~%d секунды</item>
+        <item quantity="many">Среднее время проверки: ~%d секунд</item>
+    </plurals>
+</resources>
