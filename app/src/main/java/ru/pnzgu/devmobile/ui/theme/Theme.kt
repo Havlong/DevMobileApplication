@@ -262,8 +262,8 @@ fun DevMobileApplicationTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> darkScheme
-        else -> lightScheme
+        darkTheme -> mediumContrastDarkColorScheme
+        else -> mediumContrastLightColorScheme
     }
 
     CompositionLocalProvider(LocalSpacing provides Spacing()) {
